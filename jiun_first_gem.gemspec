@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  s.rubyforge_project = "jiun_first"
+  spec.rubyforge_project = "jiun_first"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
