@@ -4,6 +4,10 @@ module JiunFirstGem
   # Your code goes here...
   #
   def self.hey
+    puts "self.hey"
+  end
+
+  def hey
     puts "hey"
   end
 end
