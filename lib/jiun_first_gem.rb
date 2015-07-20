@@ -13,12 +13,12 @@ module JiunFirstGem
 end
 
 
-class JiunFirstGem
-  def self.hey
-    puts 'self.hey'
-  end
+# class JiunFirstGem
+#   def self.hey
+#     puts 'self.hey'
+#   end
 
-  def hey
-    puts 'key'
-  end
-end
+#   def hey
+#     puts 'key'
+#   end
+# end
