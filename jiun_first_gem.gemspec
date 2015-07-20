@@ -5,15 +5,13 @@ require 'jiun_first_gem/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jiun_first_gem"
-  spec.version       = JiunFirstGem::VERSION
+  spec.version       = "0.0.11"
   spec.authors       = ["jiunjiun"]
   spec.email         = ["quietmes@gmail.com"]
   spec.summary       = %q{Just jiun first gem test}
-  spec.description   = %q{Just jiun first gem test}
-  spec.homepage      = ""
+  spec.description   = %q{Just jiun first gem test desc}
+  spec.homepage      = "http://www.google.com"
   spec.license       = "MIT"
-
-  spec.rubyforge_project = "jiun_first"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

@@ -11,3 +11,14 @@ module JiunFirstGem
     puts "hey"
   end
 end
+
+
+class JiunFirstGem
+  def self.hey
+    puts 'self.hey'
+  end
+
+  def hey
+    puts 'key'
+  end
+end
